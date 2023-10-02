@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  background-image: url(neom-wTmGtmGQCjQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container
+{
+  max-width: 350px;
+  width: 80%;
+  padding: 50px 40px;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+}
+ form .details
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 0 10px 0;
+}
+form .details .input
+{
+  width: 200px;
+  margin-bottom: 10px;
+}
+.details input
+{
+  height: 40px;
+  width: 190px;
+  border-radius: 15px;
+  outline: none;
+}
+ form .button 
+ {
+  height: 40px;
+  width: 130px;
+  margin: 30px;
+  border-radius: 10px;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: grab;
+  background: none;
+  align-items: center;
+  text-align: center;
+  color: white;
+ }
