@@ -45,7 +45,8 @@ form .details .input
   width: 190px;
   border-radius: 15px;
   outline: none;
-  
+  background: transparent;
+  backdrop-filter: blur(2px);
 }
  form .button 
  {
@@ -63,6 +64,8 @@ form .details .input
   align-content: center;
   text-align: center;
   color:white;
+  background: transparent;
+  backdrop-filter: blur(2px);
  }
  form .login span{
   font-size: x-large;
