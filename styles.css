@@ -191,7 +191,7 @@ header{
     height: 100;
 }
 .place-img img:hover{
-    transform: (100%);
+    transform: scale(1.1);
     transition: 0.5s;
 }
 .places-text{
