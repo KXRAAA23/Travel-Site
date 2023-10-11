@@ -46,8 +46,6 @@ form .details .input
   border-radius: 15px;
   outline: none;
   background: transparent;
-  backdrop-filter: blur(2px);
-  text-colour: white;
 }
  form .button 
  {
